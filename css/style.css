@@ -151,7 +151,17 @@ main {
 }
 
 main h2 {
-  margin-left: 1rem;
+  padding-left: 1rem;
+  border-bottom: 2px solid #4884c4;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 750px) {
+  main h2 {
+    text-align: left;
+  }
 }
 
 .hero__img {
@@ -169,6 +179,9 @@ main h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  border-bottom: 2px solid #4884c4;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .item__container>* {
@@ -198,4 +211,55 @@ main h2 {
 
 .item__text h3 {
   margin-bottom: 0.5rem;
+}
+
+/*
+** FOOTER
+*/
+
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 750px) {
+  .social {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 auto;
+  }
+}
+
+.social__item {
+  margin-bottom: 1.5rem;
+}
+
+.social__item img {
+  width: 2rem;
+}
+
+.copyright {
+  padding: 2rem 3rem;
+}
+
+@media screen and (min-width: 750px) {
+  .copyright {
+    padding: 1rem 0;
+  }
+}
+
+.copyright div:first-child {
+  margin-bottom: 1rem;
 }
