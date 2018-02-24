@@ -10,11 +10,11 @@ This is my work for the project of the Portfolio of the Udacity Nanodegree Front
 
 I used the css flexible boxes, so for a correct view you must have this minimum version of the browser:
 [css flexbox](https://caniuse.com/#feat=flexbox)
-i.e. 11 or next
-edge 16 or next
-firefox 58 or next
-chrome 64 or next
-safari 11 or next
+* i.e. 11 or next
+* edge 16 or next
+* firefox 58 or next
+* chrome 64 or next
+* safari 11 or next
 
 ### Installing
 
