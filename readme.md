@@ -28,7 +28,7 @@ To see the project simply download all the files, enter the downloaded folder on
 
 ## Authors
 
-* **Claudio GAvioli**
+* **Claudio Gavioli**
 
 ## License
 
