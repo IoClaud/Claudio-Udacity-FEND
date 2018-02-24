@@ -8,7 +8,7 @@ This is my work for the project of the Portfolio of the Udacity Nanodegree Front
 
 ### Prerequisites
 
-I have use css flexible box, so for the correctly viewer you must have this minimum browser version:
+I used the css flexible boxes, so for a correct view you must have this minimum version of the browser:
 [css flexbox](https://caniuse.com/#feat=flexbox)
 i.e. 11 or next
 edge 16 or next
