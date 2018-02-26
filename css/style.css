@@ -15,7 +15,87 @@ blue: #3281d9;
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
       margin: 0;
       padding: 0;
       border: 0;
@@ -27,24 +107,38 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* HTML5 display-role reset for older browsers */
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
       display: block;
 }
 
 body {
       line-height: 1;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
 }
 
 ol, ul {
       list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
       quotes: none;
 }
 
-blockquote:before, blockquote:after, q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
       content: '';
       content: none;
 }
@@ -59,7 +153,7 @@ table {
 */
 
 h1 {
-      font-family: 'Zilla Slab', serif;
+      font-family: "Zilla Slab", serif;
       font-size: 2.5rem;
       font-weight: 700;
       color: #fbaf2d;
@@ -82,7 +176,10 @@ img {
       width: 100%;
 }
 
-a, a:link, a:visited, a:focus {
+a,
+a:link,
+a:visited,
+a:focus {
       color: #3281d9;
 }
 
@@ -139,7 +236,7 @@ header .logo img {
       }
 }
 
-header .heading h1 {
+header .heading .primary-title {
       margin-bottom: 0.1rem;
 }
 
@@ -153,7 +250,7 @@ header .heading span {
 ** CONTENT
 */
 
-.content h2 {
+.content .section-title {
       padding-left: 1rem;
       border-bottom: 2px solid #3281d9;
       margin-bottom: 1rem;
@@ -162,7 +259,7 @@ header .heading span {
 }
 
 @media screen and (min-width: 750px) {
-      .content h2 {
+      .content .section-title {
             text-align: left;
       }
 }
@@ -173,11 +270,6 @@ header .heading span {
       position: relative;
 }
 
-.hero-img img {
-      min-width: 450px;
-      margin: 0 auto;
-}
-
 /*
 ** MAIN
 */
@@ -186,17 +278,12 @@ main {
       width: 100%;
 }
 
-#cat {
+.icon-item {
       height: 200px;
 }
 
 #city {
-      height: 200px;
       width: auto;
-}
-
-#paint {
-      height: 200px;
 }
 
 .item-container {
@@ -233,7 +320,7 @@ main {
       margin-top: 1rem;
 }
 
-.item-text h3 {
+.item-text .item-title {
       margin-bottom: 0.5rem;
 }
 
@@ -274,16 +361,16 @@ footer {
       width: 2rem;
 }
 
-.copyright {
+.copyright-container {
       padding: 2rem 3rem;
 }
 
 @media screen and (min-width: 750px) {
-      .copyright {
+      .copyright-container {
             padding: 1rem 0;
       }
 }
 
-.copyright div:first-child {
+.copyright-container div:first-child {
       margin-bottom: 1rem;
 }
